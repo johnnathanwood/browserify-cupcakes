@@ -12,12 +12,11 @@ let showWelcome = () => {
       //the sentence should build with commas between each kind and the word and at the end.
       //ex. apples, cookies, cakes, fruits, and chips
 
+      //this does not run the first time through
       if(index !== 0){
          //add the comma or the word and
          //ternary condition
-         storeDesc += (index !== cakeTypeArray.length - 1)
-         ? `, `
-         : `, and `;
+         storeDesc += (index !== cakeTypeArray.length - 1) ? `, ` : `, and `;
       }
 
 
