@@ -1,6 +1,6 @@
 "use strict";
 
-cakes = [
+const cakes = [
    {
       "description": "Marshmallow sweet roll ice cream gummi bears chocolate chocolate cake.",
       "flavor": "Cream",
